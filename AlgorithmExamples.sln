@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithms", "Algorithms", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolePlaygroundCore", "ConsolePlaygroundCore\ConsolePlaygroundCore.csproj", "{5ACC8FE9-5BDC-4A3D-8B47-733941FB354A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AEI", "AEI\AEI.csproj", "{600D06F8-2CD7-4411-AB02-7F2FE784E5A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{5ACC8FE9-5BDC-4A3D-8B47-733941FB354A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ACC8FE9-5BDC-4A3D-8B47-733941FB354A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ACC8FE9-5BDC-4A3D-8B47-733941FB354A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600D06F8-2CD7-4411-AB02-7F2FE784E5A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600D06F8-2CD7-4411-AB02-7F2FE784E5A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600D06F8-2CD7-4411-AB02-7F2FE784E5A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600D06F8-2CD7-4411-AB02-7F2FE784E5A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5ACC8FE9-5BDC-4A3D-8B47-733941FB354A} = {7D92F29C-3F22-4188-98E0-8D8E0E657A41}
+		{600D06F8-2CD7-4411-AB02-7F2FE784E5A4} = {D6177289-8241-4E97-9A2B-BC8C6254B04A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2B85DCB-3E05-41F0-9BBD-ABA4D4A94E34}
