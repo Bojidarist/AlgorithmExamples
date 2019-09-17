@@ -22,11 +22,14 @@
             // The index of the right element we are comparing in the array
             int rightElementIndex;
 
+            // The index of the last unsorted element
+            int indexOfLastUnsortedElement = numbers.Length - 1;
+
             // While there is something to swap --> loop
             do
             {
                 swapped = false;
-                for (int i = 0; i < numbers.Length - 1; i++)
+                for (int i = 0; i < indexOfLastUnsortedElement; i++)
                 {
                     // Get the index of the left and right elements we are comparing
                     leftElementIndex = i;
@@ -39,9 +42,12 @@
                         numbers[leftElementIndex] = numbers[rightElementIndex];
                         numbers[rightElementIndex] = temp;
 
+
                         swapped = true;
                     }
                 }
+                // Set the index of the last unsorted element
+                indexOfLastUnsortedElement--;
             } while (swapped);
 
             return numbers;
@@ -63,6 +69,9 @@
             // The index of the right element we are comparing in the array
             int rightElementIndex;
 
+            // The index of the last unsorted element
+            int indexOfLastUnsortedElement = numbers.Length - 1;
+
             // While there is something to swap --> loop
             do
             {
@@ -83,6 +92,8 @@
                         swapped = true;
                     }
                 }
+                // Set the index of the last unsorted element
+                indexOfLastUnsortedElement--;
             } while (swapped);
 
             return numbers;
