@@ -6,7 +6,7 @@ namespace ConsolePlaygroundCore
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            BubbleSortTest.IntTest();
 
             Console.WriteLine("\nPress Any Key To Exit . . .");
             Console.ReadKey();
