@@ -42,7 +42,6 @@
                         numbers[leftElementIndex] = numbers[rightElementIndex];
                         numbers[rightElementIndex] = temp;
 
-
                         swapped = true;
                     }
                 }

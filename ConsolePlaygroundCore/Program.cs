@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsolePlaygroundCore.SelectionSortTests;
+using System;
 
 namespace ConsolePlaygroundCore
 {
@@ -6,7 +7,8 @@ namespace ConsolePlaygroundCore
     {
         static void Main()
         {
-            BubbleSortTest.IntTest();
+            //BubbleSortTest.IntTest();
+            SelectionSortTest.IntTest();
 
             Console.WriteLine("\nPress Any Key To Exit . . .");
             Console.ReadKey();
